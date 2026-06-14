@@ -96,8 +96,9 @@ exp-bootstrap-ab-testing/
 
 ## 環境構築
 
-> **本実験はすべてDockerコンテナ上で実行します。**  
-> ローカル環境へのPythonパッケージの直接インストールは行いません。
+> [!IMPORTANT]
+> **本シミュレーションの実行（スクリプト、テスト、結果の評価等）は、再現性を100%担保するため、必ずDockerコンテナ上で実行してください。**  
+> ローカル環境（ホストマシン）に直接Pythonパッケージをインストールして直接実行することは厳禁です。詳細は [rules.md](file:///Users/masashiueno/Desktop/exp-bootstrap-ab-testing/rules.md) を参照してください。
 
 ### 前提条件
 
