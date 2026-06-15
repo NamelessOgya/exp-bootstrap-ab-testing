@@ -15,5 +15,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # プロジェクトファイルをコンテナ内にコピー
 COPY . .
 
-# デフォルト実行コマンド
-CMD ["python", "src/simulation.py", "--config", "configs/default.yaml"]
+# エントリーポイントとデフォルト引数
+ENTRYPOINT ["python", "src/simulation.py"]
+CMD ["--config", "configs/default.yaml"]

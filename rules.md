@@ -19,7 +19,7 @@
   ```
 - **一括実行スクリプトの実行**
   ```bash
-  docker compose run --rm simulation bash scripts/run_experiment.sh
+  docker compose run --rm --entrypoint bash simulation scripts/run_experiment.sh
   ```
 
 ## 3. ルール制定の背景
